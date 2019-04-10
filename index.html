@@ -10,38 +10,55 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>private-yusuke</title>
     <style>
-        .title {
-            background-position-x: right;
-            background-image: url("images/icon.png");
-            background-repeat: no-repeat;
+        #avatar {
+            display: block;
+            max-width: 128px;
+            border-radius: 100%;
+        }
+        .jumbotron {
+            background-image: url("images/bg.png");
+            background-size: cover;
+            background-position: center 60%;
         }
     </style>
 </head>
 <body>
     <main role="main">
-        <div class="jumbotron title">
+        <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-3">Hello!</h1>
-                <p>こんにちは。private_yusuke (public_yusuke) です。</p>
+                <img src="images/icon.png" alt="private_yusuke" id="avatar" class="mx-auto">
             </div>
         </div>
         <div class="container">
+            <div class="card border-primary">
+              <div class="card-body">
+                <h4 class="card-title">public_yusuke (private_yusuke)</h4>
+                
+                <p class="card-text">私は高校3年生です。競技プログラミングが好きです。</p>
+                <ul>
+                    <li>D</li>
+                    <li>C++</li>
+                    <li>TypeScript</li>
+                    <li>JavaScript</li>
+                    <li>Python3</li>
+                    <li>Java</li>
+                    <li>LaTeX</li>
+                </ul>
+                <p class="card-text">などを書くことがあります。</p>
+                <p class="card-text">自然言語処理や論理学に興味があります。</p>
+              </div>
+            </div>
             <table class="table">
-                <caption>List of accounts</caption>
-                <tr><th>Service</th><th>Link</th></tr>
-                <tr><td>AtCoder</td><td><a href="//atcoder.jp/users/private_yusuke">private_yusuke</a></td></tr>
-                <tr><td>GitHub</td><td><a href="//github.com/private-yusuke">private-yusuke</a></td></tr>
-                <tr><td>Twitter</td><td><a href="//twitter.com/public_yusuke">public_yusuke</a></td></tr>
-                <tr><td>はてなブログ</td><td><a href="//private-yusuke.hatenadiary.jp">private-yusuke's diary</a></td></tr>
+                <thead>
+                    <tr><th>Service</th><th>Link</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>AtCoder</td><td><a href="//atcoder.jp/users/private_yusuke">private_yusuke</a></td></tr>
+                    <tr><td>GitHub</td><td><a href="//github.com/private-yusuke">private-yusuke</a></td></tr>
+                    <tr><td>Twitter</td><td><a href="//twitter.com/public_yusuke">public_yusuke</a></td></tr>
+                    <tr><td>はてなブログ</td><td><a href="//private-yusuke.hatenadiary.jp">private-yusuke's diary</a></td></tr>
+                </tbody>
             </table>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2>About me</h2>
-                    <p>私は高校3年生です。競技プログラミングが好きです。</p>
-                </div>
-            </div>
         </div>
     </main>
     <footer class="container">
