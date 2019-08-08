@@ -16,6 +16,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-143785591-1');
     </script>
+    <link rel="stylesheet" href="css/main.css">
 
     <title>private-yusuke</title>
     <style>
@@ -23,24 +24,6 @@
             display: block;
             max-width: 128px;
             border-radius: 100%;
-        }
-        .background {
-            z-index: 0;
-            image-rendering: pixelated;
-            background-color: #00C0C0;
-            background-image: url("images/bg.png");
-            background-size: contain;
-            position: relative;
-        }
-        .background::before {
-            content: '';
-            filter: brightness(0.5);
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            background: inherit;
-            z-index: -1;
         }
     </style>
 </head>
@@ -67,7 +50,7 @@
                     <li>Java</li>
                     <li>LaTeX</li>
                 </ul>
-                <p class="card-text">などを書くことがあります。</p>
+                <p class="card-text">などを書くことがあります。<a href="works.html">作ったもの</a></p>
                 <p class="card-text">自然言語処理や論理学に興味があります。韓国語🔰</p>
                 <div class="card">
                     <div class="card-body">
@@ -79,6 +62,7 @@
                             <li>第49回木高祭で同人ゲーム「<a href="https://github.com/ckkpd/breakout-like">breakout-like</a>」展示</li>
                             <li>2019年度第1回 実用英語技能検定(英検) 準1級 合格</li>
                             <li>千葉大学主催第12回高校生理科研究発表会で課題研究「フィボナッチ数列を求めるアルゴリズムたち」優秀賞受賞</li>
+                            <li><a href="about.html">details…</a></li>
                         </ul>
                     </div>
                 </div>
@@ -97,8 +81,10 @@
             </table>
         </div>
     </main>
-    <footer class="container">
-        <p>&copy; private-yusuke 2019</p>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">&copy; private-yusuke 2019</p>
+        </div>
     </footer>
 </body>
 </html>
