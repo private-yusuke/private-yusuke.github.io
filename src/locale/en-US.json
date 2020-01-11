@@ -1,0 +1,102 @@
+{
+    "hero": {
+        "caption": "Yet another random person that exists on the Internet"
+    },
+    "summary": {
+        "title": "Summary",
+        "subtitle": "Current assignment",
+        "birthday": "Birthday",
+        "birthday_date": "Nov 11, 2001",
+        "affiliation": "Affiliation",
+        "affiliation_name": "Kisarazu High School",
+        "department": "Department",
+        "department_name": "Science and mathematics course (known as 理数科)"
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "Also my hobbies",
+        "d": {
+            "love": "My favorite",
+            "desc": "Miscellaneous"
+        },
+        "typescript": {
+            "desc": "Chatbot"
+        },
+        "csharp": {
+            "desc": "Game dev"
+        },
+        "cpp": {
+            "desc": "CP & Miscellaneous"
+        },
+        "linux": {
+            "desc": "Server"
+        },
+        "css": {
+            "desc": "Coding this"
+        },
+        "latex": {
+            "desc": "Write a bit"
+        },
+        "twitter": {
+            "desc": "Shitposting"
+        }
+    },
+    "links": {
+        "title": "Links",
+        "subtitle": "Some kind of a directed graph"
+    },
+    "history": {
+        "title": "History",
+        "subtitle": "Of my life until today",
+        "start": "Start",
+        "current": "Now",
+        "misc": "A\nlot\nof\nthings\nhappened",
+        "dict": [
+            {
+                "date": "November 11, 2001",
+                "age": "age 0",
+                "title": "Birth"
+            },
+            {
+                "date": "2003",
+                "age": "age 2",
+                "title": "Started using computers"
+            },
+            {
+                "date": "2004",
+                "age": "age 3",
+                "title": "The second word I've spoken in my life had become \"Download\""
+            },
+            {
+                "date": "August, 2010",
+                "age": "age 9",
+                "title": "The first time I send a command to a calculator",
+                "desc": "Fiddling around with my grandfather's calculator on which has BASIC installed"
+            },
+            {
+                "date": "2013",
+                "age": "age 12",
+                "title": "Created some Minecraft Mods",
+                "desc": "Adding composite tools, new ores and etc."
+            },
+            {
+                "date": "February 16",
+                "age": "age 17",
+                "title": "Become Cyan at AtCoder"
+            },
+            {
+                "date": "July 9",
+                "title": "Passed Eiken Pre-1 exam"
+            },
+            {
+                "date": "November 9 - 10",
+                "title": "Participated in All-Japan High School Programming Contest 2019: Final"
+            },
+            {
+                "date": "December 12",
+                "age": "age 18",
+                "title": "Passed the public application recommendation entrance examination of College of Information Science, School of Informatics, University of Tsukuba"
+            }
+        ]
+    }
+}

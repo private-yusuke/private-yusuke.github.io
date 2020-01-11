@@ -1,0 +1,73 @@
+@import "~bulma/bulma";
+@import "~bulma-extensions";
+@import "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+.hero-body {
+  border-bottom: 1px dotted #dfdfdf;
+  font-family: "Yu Gothic UI", sans-serif;
+}
+
+.img_icon {
+  image-rendering: pixelated;
+}
+
+footer.footer-dark {
+    background: #444F60;
+    color: #fff;
+}
+
+main section {
+  border-bottom: 1px solid #dfdfdf;
+
+  .title, .subtitle {
+    text-align: center;
+  }
+}
+
+.summary-list > .media + .media {
+  border-top: none;
+  margin-top: .5rem;
+  padding-top: .5rem;
+}
+#skills .column,
+#links .column,
+footer {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#skills {
+  .tag {
+    margin: .2rem .1rem;
+  }
+}
+
+#links a {
+  transition: color .15s ease;
+  color: #999;
+
+  &.twitter:hover {
+    color: #39F;
+  }
+  &.github:hover,
+  &.hatenablog:hover {
+    color: black;
+  }
+  &.atcoder:hover {
+    color: #00C0C0;
+  }
+}
+
+.timeline-desc {
+  margin-left: 1.25rem;
+  color: hsl(0, 0%, 48%);
+}
+
+.some-happened {
+  border: solid 1px #dfdfdf;
+  margin-bottom: 10px;
+}
