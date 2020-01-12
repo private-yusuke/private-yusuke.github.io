@@ -1,6 +1,7 @@
 {
     "hero": {
-        "caption": "Yet another random person that exists on the Internet"
+        "caption": "Yet another random person that exists on the Internet",
+        "name": "public_yusuke"
     },
     "summary": {
         "title": "Summary",
@@ -51,52 +52,58 @@
         "start": "Start",
         "current": "Now",
         "misc": "A\nlot\nof\nthings\nhappened",
-        "dict": [
-            {
+        "dict": {
+            "birth": {
                 "date": "November 11, 2001",
                 "age": "age 0",
                 "title": "Birth"
             },
-            {
+            "pcstart": {
                 "date": "2003",
                 "age": "age 2",
                 "title": "Started using computers"
             },
-            {
+            "firstword": {
                 "date": "2004",
                 "age": "age 3",
                 "title": "The second word I've spoken in my life had become \"Download\""
             },
-            {
+            "firstprog": {
                 "date": "August, 2010",
                 "age": "age 9",
-                "title": "The first time I send a command to a calculator",
+                "title": "The first time I make a program",
                 "desc": "Fiddling around with my grandfather's calculator on which has BASIC installed"
             },
-            {
+            "mcmodding": {
                 "date": "2013",
                 "age": "age 12",
                 "title": "Created some Minecraft Mods",
                 "desc": "Adding composite tools, new ores and etc."
             },
-            {
+            "chibauniv_event": {
+                "date": "9月29日",
+                "age": "17歳",
+                "title": "千葉大学主催第12回高校生理科研究発表会、数学・情報の部で優秀賞"
+            },
+            "atcyan": {
                 "date": "February 16",
                 "age": "age 17",
-                "title": "Become Cyan at AtCoder"
+                "title": "Became Cyan at AtCoder"
             },
-            {
+            "eikenpre1": {
                 "date": "July 9",
                 "title": "Passed Eiken Pre-1 exam"
             },
-            {
+            "pck2019ho": {
                 "date": "November 9 - 10",
-                "title": "Participated in All-Japan High School Programming Contest 2019: Final"
+                "title": "Participated in All-Japan High School Programming Contest 2019: Final",
+                "desc": "Team name: A is the A for DP (original: AはDPのA)"
             },
-            {
+            "tsukuba_in": {
                 "date": "December 12",
                 "age": "age 18",
                 "title": "Passed the public application recommendation entrance examination of College of Information Science, School of Informatics, University of Tsukuba"
             }
-        ]
+        }
     }
 }

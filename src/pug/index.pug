@@ -20,7 +20,7 @@ html(lang="ja")
                     .columns.is-vcentered.is-mobile
                         .column.is-5.is-offset-1.landing-caption
                             span #{$T.hero.caption}
-                            h1.title.is-1.is-bold.is-spaced public_yusuke
+                            h1.title.is-1.is-bold.is-spaced #{$T.hero.name}
                         .column.is-4.is-offset-1
                             figure.image.is-4by4
                                 img.lazy.img_icon(src="assets/icon.png", alt="public_yusuke's icon", style="display: block;")
@@ -133,63 +133,62 @@ html(lang="ja")
                         .timeline-item.is-danger
                             .timeline-marker.is-danger
                             .timeline-content
-                                p.heading #{$T.history.dict[0].date} :: #{$T.history.dict[0].age}
-                                p #[i.fas.fa-birthday-cake] #{$T.history.dict[0].title}
+                                p.heading #{$T.history.dict["birth"].date} :: #{$T.history.dict["birth"].age}
+                                p #[i.fas.fa-birthday-cake] #{$T.history.dict["birth"].title}
                         .timeline-item.is-primary
                             .timeline-marker.is-primary
                             .timeline-content
-                                p.heading #{$T.history.dict[1].date} :: #{$T.history.dict[1].age}
-                                p #[i.fas.fa-desktop] #{$T.history.dict[1].title}
-                        .timeline-item
-                            .timeline-marker
-                            .timeline-content
-                                p.heading #{$T.history.dict[2].date} :: #{$T.history.dict[2].age}
-                                p #[i.fas.fa-microphone] #{$T.history.dict[2].title}
-                                p.is-muted #{$T.history.dict[2].desc}
+                                p.heading #{$T.history.dict["pcstart"].date} :: #{$T.history.dict["pcstart"].age}
+                                p #[i.fas.fa-desktop] #{$T.history.dict["pcstart"].title}
                         .timeline-header
                             span.tag.is-primary 2010
                         .timeline-item
                             .timeline-marker
                             .timeline-content
-                                p.heading #{$T.history.dict[3].date} :: #{$T.history.dict[3].age}
-                                p #[i.fas.fa-desktop] #{$T.history.dict[3].title}
-                                p.timeline-desc #{$T.history.dict[3].desc}
+                                p.heading #{$T.history.dict["firstprog"].date} :: #{$T.history.dict["firstprog"].age}
+                                p #[i.fas.fa-desktop] #{$T.history.dict["firstprog"].title}
+                                p.timeline-desc #{$T.history.dict["firstprog"].desc}
                         .timeline-item.is-info
                             .timeline-marker.is-info
                             .timeline-content
-                                p.heading #{$T.history.dict[4].date} :: #{$T.history.dict[4].age}
-                                p #[i.devicon-java-plain] #{$T.history.dict[4].title}
-                                p.timeline-desc #{$T.history.dict[4].desc}
+                                p.heading #{$T.history.dict["mcmodding"].date} :: #{$T.history.dict["mcmodding"].age}
+                                p #[i.devicon-java-plain] #{$T.history.dict["mcmodding"].title}
+                                p.timeline-desc #{$T.history.dict["mcmodding"].desc}
                         .timeline-header.some-happnened
                             div
                                 pre(style="padding: 0.5rem;") #{$T.history.misc}
                         .timeline-item
                         .timeline-header
+                            span.tag.is-primary 2018
+                        .timeline-item.is-warning
+                            .timeline-marker.is-warning
+                            .timeline-content
+                                p.heading #{$T.history.dict["chibauniv_event"].date} :: #{$T.history.dict["chibauniv_event"].age}
+                                p #[i.fas.fa-school] #{$T.history.dict["chibauniv_event"].title}
+                                p.timeline-desc #{$T.history.dict["chibauniv_event"].desc}
+                        .timeline-header
                             span.tag.is-primary 2019
                         .timeline-item.is-success
                             .timeline-marker.is-success
                             .timeline-content
-                                p.heading #{$T.history.dict[5].date} :: #{$T.history.dict[5].age}
-                                p #[i.fas.fa-pencil-ruler] #{$T.history.dict[5].title}
-                                p.is-muted #{$T.history.dict[5].desc}
+                                p.heading #{$T.history.dict["atcyan"].date} :: #{$T.history.dict["atcyan"].age}
+                                p #[i.fas.fa-pencil-ruler] #{$T.history.dict["atcyan"].title}
                         .timeline-item.is-success
                             .timeline-marker.is-success
                             .timeline-content
-                                p.heading #{$T.history.dict[6].date}
-                                p #[i.fas.fa-language] #{$T.history.dict[6].title}
-                                p.is-muted #{$T.history.dict[6].desc}
+                                p.heading #{$T.history.dict["eikenpre1"].date}
+                                p #[i.fas.fa-language] #{$T.history.dict["eikenpre1"].title}
                         .timeline-item.is-success
                             .timeline-marker.is-success
                             .timeline-content
-                                p.heading #{$T.history.dict[7].date}
-                                p #[i.fas.fa-pencil-ruler] #{$T.history.dict[7].title}
-                                p.is-muted #{$T.history.dict[7].desc}
+                                p.heading #{$T.history.dict["pck2019ho"].date}
+                                p #[i.fas.fa-pencil-ruler] #{$T.history.dict["pck2019ho"].title}
+                                p.timeline-desc #{$T.history.dict["pck2019ho"].desc}
                         .timeline-item.is-danger
                             .timeline-marker.is-danger
                             .timeline-content
-                                p.heading #{$T.history.dict[8].date} :: #{$T.history.dict[8].age}
-                                p #[i.fas.fa-university] #{$T.history.dict[8].title}
-                                p.is-muted #{$T.history.dict[8].desc}
+                                p.heading #{$T.history.dict["tsukuba_in"].date} :: #{$T.history.dict["tsukuba_in"].age}
+                                p #[i.fas.fa-university] #{$T.history.dict["tsukuba_in"].title}
 
                         .timeline-footer
                             span.tag.is-medium.is-primary #{$T.history.current}

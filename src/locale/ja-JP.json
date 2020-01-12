@@ -1,6 +1,7 @@
 {
     "hero": {
-        "caption": "パソコンが好きな人の集まりのうちのひとり"
+        "caption": "パソコンが好きな人の集まりのうちのひとり",
+        "name": "public_yusuke"
     },
     "summary": {
         "title": "概要",
@@ -47,56 +48,62 @@
     },
     "history": {
         "title": "歴史",
-        "subtitle": "今日までに及ぶ私の人生",
+        "subtitle": "今日までの人生",
         "start": "開始",
         "current": "現在",
         "misc": "いろいろな\nことが\nおきた",
-        "dict": [
-            {
+        "dict": {
+            "birth": {
                 "date": "2001年11月11日",
                 "age": "0歳",
                 "title": "誕生"
             },
-            {
+            "pcstart": {
                 "date": "2003年",
                 "age": "2歳",
                 "title": "パソコンを使い始める"
             },
-            {
+            "firstword": {
                 "date": "2004年",
                 "age": "3歳",
                 "title": "2番目に始めて喋った言葉が「ダウンロード」になる"
             },
-            {
+            "firstprog": {
                 "date": "2010年8月",
                 "age": "9歳",
-                "title": "計算機に始めてコマンドを与える",
+                "title": "はじめてプログラムをつくる",
                 "desc": "祖父のBASICが動く計算機を弄った"
             },
-            {
+            "mcmodding": {
                 "date": "2013年",
                 "age": "12歳",
                 "title": "MinecraftのMODを制作する",
                 "desc": "複合的道具追加と鉱物追加など"
             },
-            {
+            "chibauniv_event": {
+                "date": "9月29日",
+                "age": "17歳",
+                "title": "千葉大学主催第12回高校生理科研究発表会、数学・情報の部で優秀賞"
+            },
+            "atcyan": {
                 "date": "2月16日",
                 "age": "17歳",
                 "title": "AtCoder水色になる"
             },
-            {
+            "eikenpre1": {
                 "date": "7月9日",
                 "title": "英検準一級に合格"
             },
-            {
+            "pck2019ho": {
                 "date": "11月9日 - 10日",
-                "title": "パソコン甲子園2019プログラミング部門出場"
+                "title": "パソコン甲子園2019プログラミング部門出場",
+                "desc": "チーム名: AはDPのA"
             },
-            {
+            "tsukuba_in": {
                 "date": "12月12日",
                 "age": "18歳",
                 "title": "筑波大学情報学群情報科学類に公募推薦入試で合格"
             }
-        ]
+        }
     }
 }
