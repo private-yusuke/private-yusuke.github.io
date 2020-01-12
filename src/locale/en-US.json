@@ -1,4 +1,7 @@
 {
+    "navbar": {
+        "old_website": "old"
+    },
     "hero": {
         "caption": "Yet another random person that exists on the Internet",
         "name": "public_yusuke"
@@ -81,9 +84,17 @@
                 "desc": "Adding composite tools, new ores and etc."
             },
             "chibauniv_event": {
-                "date": "9月29日",
-                "age": "17歳",
-                "title": "千葉大学主催第12回高校生理科研究発表会、数学・情報の部で優秀賞"
+                "date": "September 29",
+                "age": "age 17",
+                "title": "Chiba Univ. The 12th High school science study presentation, Mathematics and informatics division, 優秀賞(Outstanding performance award)",
+                "desc": "「フィボナッチ数列を求めるアルゴリズムたち」(Algorithms for calculating the Fibonacci sequence)",
+                "link": "Website"
+            },
+            "cit_event": {
+                "date": "March 16",
+                "title": "Chiba Institute of Technology, The 10th Chiba-pref. project study presentation, oral / poster presentation",
+                "desc": "「フィボナッチ数列を求めるアルゴリズムたち」(Algorithms for calculating the Fibonacci sequence)",
+                "link": "PDF"
             },
             "atcyan": {
                 "date": "February 16",
@@ -97,7 +108,8 @@
             "pck2019ho": {
                 "date": "November 9 - 10",
                 "title": "Participated in All-Japan High School Programming Contest 2019: Final",
-                "desc": "Team name: A is the A for DP (original: AはDPのA)"
+                "desc": "Team name: A is the A for DP (original: AはDPのA)",
+                "link": "Website"
             },
             "tsukuba_in": {
                 "date": "December 12",

@@ -15,6 +15,8 @@ html(lang="ja")
                         p 🇯🇵
                     a.navbar-item(href="/index-en-US.html")
                         p 🇺🇸
+                    a.navbar-item(href="assets/old")
+                        p #{$T.navbar.old_website}
             .hero-body
                 .container
                     .columns.is-vcentered.is-mobile
@@ -166,6 +168,8 @@ html(lang="ja")
                                 p.heading #{$T.history.dict["chibauniv_event"].date} :: #{$T.history.dict["chibauniv_event"].age}
                                 p #[i.fas.fa-school] #{$T.history.dict["chibauniv_event"].title}
                                 p.timeline-desc #{$T.history.dict["chibauniv_event"].desc}
+                                    a.timeline-link(href="https://www.cfs.chiba-u.jp/koudai-renkei/event/history/2018/houkoku30.html", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] #{$T.history.dict["chibauniv_event"].link}
                         .timeline-header
                             span.tag.is-primary 2019
                         .timeline-item.is-success
@@ -173,17 +177,27 @@ html(lang="ja")
                             .timeline-content
                                 p.heading #{$T.history.dict["atcyan"].date} :: #{$T.history.dict["atcyan"].age}
                                 p #[i.fas.fa-pencil-ruler] #{$T.history.dict["atcyan"].title}
+                        .timeline-item.is-info
+                            .timeline-marker.is-info
+                            .timeline-content
+                                p.heading #{$T.history.dict["cit_event"].date}
+                                p #[i.fas.fa-school] #{$T.history.dict["cit_event"].title}
+                                p.timeline-desc #{$T.history.dict["cit_event"].desc}
+                                    a.timeline-link(href="https://www.chiba-c.ed.jp/funako/fttp_kousin/ssh/2019_0316_3b.pdf")
+                                        | #[i.fas.fa-external-link-alt] #{$T.history.dict["cit_event"].link}
                         .timeline-item.is-success
                             .timeline-marker.is-success
                             .timeline-content
                                 p.heading #{$T.history.dict["eikenpre1"].date}
                                 p #[i.fas.fa-language] #{$T.history.dict["eikenpre1"].title}
-                        .timeline-item.is-success
-                            .timeline-marker.is-success
+                        .timeline-item.is-warning
+                            .timeline-marker.is-warning
                             .timeline-content
                                 p.heading #{$T.history.dict["pck2019ho"].date}
                                 p #[i.fas.fa-pencil-ruler] #{$T.history.dict["pck2019ho"].title}
                                 p.timeline-desc #{$T.history.dict["pck2019ho"].desc}
+                                    a.timeline-link(href="http://web-ext.u-aizu.ac.jp/pc-concours/2019/final/f_finalteam2019.html")
+                                        | #[i.fas.fa-external-link-alt] #{$T.history.dict["pck2019ho"].link}
                         .timeline-item.is-danger
                             .timeline-marker.is-danger
                             .timeline-content
