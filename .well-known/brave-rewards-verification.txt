@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: private-yusuke.github.io
+Token: addbb18d0f1d94857b8478176ef7f9e9256fd4e1c15d50008b19b07870e0a2ad
