@@ -2,59 +2,41 @@ table, tr, td, th {
     border: solid 1px black;
     border-collapse: collapse;
 }
-
 html {
     background: #eee;
-}
-
-#container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 th, td {
     padding: .5em;
 }
-
-#ul-parent>li {
+#ul-parent > li {
     margin-bottom: 0.7em;
 }
-
 dt {
     font-weight: bold;
 }
-
 dd {
     margin-top: 0.5em;
     margin-bottom: 0.8em;
 }
-
 h2 {
     font-size: 1.4em;
     margin-top: 2em;
 }
-
+#name_icon {
+    position: relative;
+}
 #name {
     display: inline-block;
 }
-
-#icons {
-    width: 30%;
-    margin-left: 3%;
-}
-#icons > img {
-    margin-top: 1px;
-}
-
-.icon {
+#icon {
     width: 120px;
     position: relative;
     float: right;
     margin-top: 10px;
-    box-shadow: 0px 0px 1px 1px black;
+    margin-right: 40px;
+    box-shadow:0px 0px 1px 1px black;
 }
-
 body {
     background: #fff;
     max-width: 45em;
@@ -63,25 +45,15 @@ body {
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
     font-family: sans-serif;
 }
-
 #mode {
     text-align: right;
-}
-
-@media screen and (max-width: 30em) {
-    #container {
-        flex-direction: column;
-    }
-    body {
-        box-shadow: none;
-        padding: none;
-    }
 }
 
 @media screen and (max-width: 40em) {
     body {
         padding: 1em;
     }
+
     dd {
         margin-left: 1em;
     }
@@ -108,3 +80,4 @@ body {
         box-shadow: none;
     }
 }
+
