@@ -4,7 +4,9 @@ table, tr, td, th {
 }
 
 html {
-    background: #eee;
+    background-image: url("imgs/icon2.png");
+    background-position: center;
+    background-size: cover;
 }
 
 th, td {
