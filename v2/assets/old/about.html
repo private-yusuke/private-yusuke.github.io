@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: [{left: "$$", right: "$$", display: true},{left: "$", right: "$", display: false}]})});</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143785591-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-143785591-1');
+    </script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>private-yusuke</title>
+    <style>
+        #avatar {
+            display: block;
+            max-width: 128px;
+            border-radius: 100%;
+        }
+        #ul-root > li {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main role="main">
+        <div class="jumbotron jumbotron-fluid background">
+            <div class="container" style="background-color: rgba(240, 240, 240, 0.8)">
+                <h1 class="display-4">About</h1>
+            </div>
+        </div>
+        <div class="container">
+            <h3>public_yusuke (<code>(private|public)_yusuke</code>)</h3>
+            <img src="images/icon.png" style="width: 150px; height: 150px; margin: 20px;">
+            <h4>プロフィール</h4>
+            <ul>
+                <li>理数科・高校3年生</li>
+                <li>メール: sakurapleasure0@gmail.com</li>
+            </ul>
+            <h4>興味のあること</h4>
+            <p>競プロ, 英語, ゲーム制作, NLP</p>
+            <p></p>
+
+            <h4>様々</h4>
+            <ul id="ul-root">
+                <li>
+                    自然言語処理📚
+                    <ul>
+                        <li>3-gramのモデルにおけるマルコフ連鎖のライブラリ(<a href="https://github.com/private-yusuke/markov-ja">markov-ja</a>)とそれを利用したチャットボット(<a href="https://github.com/private-yusuke/botot2">botot2</a>)の制作</li>
+                        <li>MeCab使って形態素解析させたらなんか面白いことができそうだと思ったので作った</li>
+                        <li><a href="https://www.amazon.co.jp/dp/4627853114/ref=cm_sw_r_tw_dp_U_x_Pa8sDbT0X3DVZ">はじめての自然言語処理</a>を読んだ</li>
+                    </ul>
+                </li>
+                <li>
+                    線形代数🔢
+                    <ul>
+                        <li>フィボナッチ数を求めるアルゴリズムの一つに、行列を用いて漸化式を表現し、それを繰り返し二乗法で処理すると計算量が$O(\log n)$に落ちるものがあり、それを理解するために勉強する必要が出たのでやっていた</li>
+                        <li><a href="https://www.amazon.co.jp/dp/4873117585/ref=cm_sw_r_tw_dp_U_x_z44sDbBPHHFVD">ゼロから作るDeep Learning</a>を読むときも簡単な行列と偏微分の知識が必要だったので初歩的な部分を勉強した</li>
+                    </ul>
+                </li>
+                <li>
+                    競技プログラミング💻
+                    <ul>
+                        <li>高校の旧パソコン同好会を、人数集めてみんなで情報オリンピック予選出たのち、<a href="https://twitter.com/kisarazu_hs_pc">パソコン部</a>に昇格させた</li>
+                        <li>PCK2019本選に出ることになったのでとてもよかった</li>
+                    </ul>
+                </li>
+                <li>
+                    データ構造とアルゴリズム💾
+                    <ul>
+                        <li>3DSのプチコン3号で、<a href="https://www.youtube.com/watch?v=UmiSj0Jlukc">バブルソート</a>と<a href="https://www.youtube.com/watch?v=j9BQtwMNcxE">挿入ソート</a>の視覚化をしてみた</li>
+                        <li>Wolfram Codeに対応したセルオートマトン描画ソフト<a href="https://github.com/private-yusuke/cellular_d">cellular_d</a>を作った</li>
+                        <li>課題研究で同じ班だった情報分野にあまり明るくない人々に、一連の線形代数の基礎や計算量の概念などを教えた</li>
+                    </ul>
+                </li>
+                <li>ゲーム制作🎮
+                    <ul>
+                        <li>基本的にUnityで開発してランキングサーバーをTypeScriptで書く</li>
+                        <li>第48回木高祭で自作ゲーム「<a href="https://github.com/private-yusuke/StarGetter">StarGetter</a>」展示 <a href="https://twitter.com/kisarazu_hs_pc/status/1010764521416245249">159名の方が展示場でプレイ</a></li>
+                        <li>第49回木高祭で同人ゲーム「<a href="https://github.com/ckkpd/breakout-like">breakout-like</a>」展示 <a href="https://twitter.com/kisarazu_hs_pc/status/1142331840360927232">178人の方が展示場で計557回プレイ</a></li>
+                    </ul>
+                </li>
+                <li>自然言語📖
+                    <ul>
+                        <li>英語を学習中
+                            <ul>
+                                <li>特に対策もしなかったが、ふと思い英検準1級を受験したら合格した</li>
+                                <li>最近は化学を英語でやったりしてる（覚えやすい）</li>
+                            </ul>
+                        </li>
+                        <li>韓国語を2019年から学習中🔰</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>実績</h4>
+            <ul>
+                <li>理数科での課題研究で、「フィボナッチ数列を求めるアルゴリズムたち」
+                    <ul>
+                        <li><a href="https://www.cfs.chiba-u.jp/koudai-renkei/event/history/2018/houkoku30.html">千葉大学主催第12回高校生理科研究発表会</a>にてポスター発表、数学・情報の部で優秀賞</li>
+                        <li><a href="https://www.chiba-c.ed.jp/funako/fttp_kousin/ssh/2019_0316_3b.pdf">第10回千葉県課題研究発表会</a>において、数学の部で口頭発表、ポスター発表</li>
+                        <li>木更津高校平成30年度SSH校内研究発表会にて口頭発表、ポスター発表</li>
+                        <li><a href="http://tus-alumni.risoukai.tus.ac.jp/event/botchan-science">第18回 坊っちゃん科学賞研究論文コンテスト</a>で入賞した</li>
+                    </ul>
+                </li>
+                <li style="color: #00C0C0;">AtCoder水 (Highest: 1229) 4級</li>
+                <li>JOI2018予選 331点 Bランク（敢闘賞）</li>
+                <li>パソコン甲子園<ruby>2019<rt>に・ぜろ・いち・きゅう</rt></ruby> プログラミング部門 本選出場「AはDPのA」</li>
+                <li>2019年度第1回 実用英語技能検定(英検) 準1級 合格</li>
+            </ul>
+            <h4>好きなもの</h4>
+            <ul>
+                <li><code>/D言語(くん)?/</code>, 赤黒木, 💻, 数学と情報, 英語</li>
+                <li>Kawaii Future Bass, 音ゲー, ピアノ(聞くのも弾くのも)</li>
+                <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%86%E3%83%A9%E3%81%AE%E3%81%BE%E3%81%BB%E3%81%86">ステラのまほう</a></li>
+            </ul>
+            <a href=".">戻る</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+           <p class="text-muted">&copy; private-yusuke 2019</p>
+        </div>
+    </footer>
+</body>
+</html>
