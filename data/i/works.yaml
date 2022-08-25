@@ -11,8 +11,6 @@
   links:
     - href: https://github.com/private-yusuke/EWSParserApp
       label: GitHub リポジトリ
-    - href: https://scrapbox.io/smt-d/
-      label: Scrapbox
 
 - name: 内部状態が可視化された SAT ソルバーの制作
   description: CDCL での implication graph の様子を DOT 言語で吐き出せるようにしました
@@ -65,7 +63,5 @@
 - name: cellular_d
   description: Wolfram Code に準じてセルオートマトンを扱うソフトウェアです。D 言語で SDL2 を利用しています。
   links:
-    - href: https://github.com/private-yusuke/StarGetter
+    - href: https://github.com/private-yusuke/cellular_d
       label: GitHub リポジトリ
-    - href: https://twitter.com/kisarazu_hs_pc/status/1010764521416245249
-      label: 展示の様子
