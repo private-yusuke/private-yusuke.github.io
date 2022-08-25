@@ -21,19 +21,19 @@
       label: Scrapbox
 
 - name: discord-diff-watch-bot
-  description: 特定のウェブサイトを監視し、更新をDiscordで通知します。
+  description: 特定のウェブサイトを監視し、更新を Discord で通知します。
   links:
     - href: https://github.com/private-yusuke/discord-diff-watch-bot
       label: GitHub リポジトリ
 
 - name: 某コントローラー
-  description: 7鍵で叩くよろこびを実現しました。
+  description: 7 鍵で叩くよろこびを実現しました。
   links:
     - href: https://private-yusuke.hatenadiary.jp/entry/2020/02/02/214617
       label: ブログ記事
 
 - name: botot2
-  description: Misskey上で動くチャットボット（人工無能）。
+  description: Misskey 上で動くチャットボット（人工無能）。
   links:
     - href: https://github.com/private-yusuke/botot2
       label: GitHub リポジトリ
