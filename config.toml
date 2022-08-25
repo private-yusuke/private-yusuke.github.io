@@ -1,6 +1,8 @@
 baseURL = 'https://www.yusuke.pub/'
 languageCode = 'ja-jp'
 title = 'public_yusuke'
+disableKinds = ['categories', 'tags', 'taxonomy', 'term']
+ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
 latestWorksDisplayingCount = 3
