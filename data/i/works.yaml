@@ -1,0 +1,71 @@
+- name: 内部状態が可視化された SMT ソルバーの制作
+  description: EUF の congruence closure algorithm の様子を DOT 言語で吐き出せるようにした SMT ソルバー
+  links:
+    - href: https://github.com/private-yusuke/smt-d
+      label: GitHub リポジトリ
+    - href: https://scrapbox.io/smt-d/
+      label: Scrapbox
+
+- name: EWSParserApp
+  description: 緊急警報信号（ｐｒｐｒ音）を解読するための Android 用アプリケーション
+  links:
+    - href: https://github.com/private-yusuke/EWSParserApp
+      label: GitHub リポジトリ
+    - href: https://scrapbox.io/smt-d/
+      label: Scrapbox
+
+- name: 内部状態が可視化された SAT ソルバーの制作
+  description: CDCL での implication graph の様子を DOT 言語で吐き出せるようにしました
+  links:
+    - href: https://github.com/private-yusuke/sat-d
+      label: GitHub リポジトリ
+    - href: https://scrapbox.io/sat-d/
+      label: Scrapbox
+
+- name: discord-diff-watch-bot
+  description: 特定のウェブサイトを監視し、更新をDiscordで通知します。
+  links:
+    - href: https://github.com/private-yusuke/discord-diff-watch-bot
+      label: GitHub リポジトリ
+
+- name: 某コントローラー
+  description: 7鍵で叩くよろこびを実現しました。
+  links:
+    - href: https://private-yusuke.hatenadiary.jp/entry/2020/02/02/214617
+      label: ブログ記事
+
+- name: botot2
+  description: Misskey上で動くチャットボット（人工無能）。
+  links:
+    - href: https://github.com/private-yusuke/botot2
+      label: GitHub リポジトリ
+
+- name: 競プロで書いたコードたち
+  description: D 言語で書いたライブラリがいくつかあります。
+  links:
+    - href: https://github.com/private-yusuke/Competitive-Programming
+      label: GitHub リポジトリ
+
+- name: breakout-like
+  description: 第 49 回木高祭で展示した同人ゲーム。178 人の方が展示場で計 557 回遊びました。いわゆるブロック崩しに独自要素を組み込んで面白くしました。
+  links:
+    - href: https://github.com/ckkpd/breakout-like
+      label: GitHub リポジトリ
+    - href: https://twitter.com/kisarazu_hs_pc/status/1142331840360927232
+      label: 展示の様子
+
+- name: StarGetter
+  description: 第 48 回木高祭で展示した自作ゲーム。159 名の方が展示場で遊びました。落ち物を拾うタイプのよくありそうなやつ。
+  links:
+    - href: https://github.com/private-yusuke/StarGetter
+      label: GitHub リポジトリ
+    - href: https://twitter.com/kisarazu_hs_pc/status/1010764521416245249
+      label: 展示の様子
+
+- name: cellular_d
+  description: Wolfram Code に準じてセルオートマトンを扱うソフトウェアです。D 言語で SDL2 を利用しています。
+  links:
+    - href: https://github.com/private-yusuke/StarGetter
+      label: GitHub リポジトリ
+    - href: https://twitter.com/kisarazu_hs_pc/status/1010764521416245249
+      label: 展示の様子

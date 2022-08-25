@@ -1,0 +1,6 @@
+baseURL = 'https://www.yusuke.pub/'
+languageCode = 'ja-jp'
+title = 'public_yusuke'
+
+[params]
+latestWorksDisplayingCount = 3

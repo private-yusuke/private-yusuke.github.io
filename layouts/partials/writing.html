@@ -1,0 +1,8 @@
+<li>
+    {{ if isset .book "href" }}
+        <a href="{{ .book.href }}">{{ .book.name }}</a>
+        {{ .article.name }}
+    {{ else }}
+        {{ .book.name }} {{ .article.name }}
+    {{ end }}
+</li>

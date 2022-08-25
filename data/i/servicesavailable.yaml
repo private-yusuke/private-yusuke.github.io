@@ -1,0 +1,24 @@
+- name: Twitter
+  href: https://twitter.com/public_yusuke
+  label: '@public_yusuke'
+- name: GitHub
+  href: https://github.com/private-yusuke
+  label: '@private-yusuke'
+- name: AtCoder
+  href: https://atcoder.jp/users/private_yusuke
+  label: private_yusuke
+- name: ブログ
+  href: https://private-yusuke.hatenadiary.jp/
+  label: https://private-yusuke.hatenadiary.jp/
+- name: メール
+  label: |
+    rvvvvvvvvvvvvvvvvvvvvvvvq
+    b                       d
+    b   public              d
+    b         @      .pub   d
+    b          yusuke       d
+    b                       d
+    tvvvvvvvvvvvvvvvvvvvvvvvj
+  aa: true
+- name: コールサイン
+  label: JK1NFU

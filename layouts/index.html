@@ -1,0 +1,41 @@
+{{ define "main" }}
+    <div id="name_icon">
+        <h1 id="name">{{ .Site.Data.i.profile.name }}</h1>
+        <img src="imgs/icon.png" alt="{{ .Site.Data.i.profile.name }}'s icon" id="icon" />
+    </div>
+    <p>{{ .Site.Data.i.profile.bio }}</p>
+    <h2>アカウントなど</h2>
+    {{ partial "services.html" .Site.Data.i.servicesavailable }}
+
+    <h2>作ったものとか / <span style="font-size: 0.5em">最新 {{ .Site.Params.latestWorksDisplayingCount }} 件</span></h2>
+    <dl>
+        {{ range first .Site.Params.latestWorksDisplayingCount .Site.Data.i.works }}
+            {{ partial "work.html" . }}
+        {{ end }}
+    </dl>
+    <p>などなど……。（<a href="works/">もっと見る</a>）</p>
+
+    <h2>書いたもの</h2>
+    <ul>
+        {{ range .Site.Data.i.writings }}
+            {{ partial "writing.html" . }}
+        {{ end }}
+    </ul>
+
+    <h2>やったこと</h2>
+    <ul id="ul-parent">
+        {{ range .Site.Data.i.activities }}
+            {{ partial "activity.html" . }}
+        {{ end }}
+    </ul>
+
+    <h2>資格</h2>
+    <ul>
+        {{ range .Site.Data.i.certifications }}
+            {{ partial "certification.html" . }}
+        {{ end }}
+    </ul>
+    <h2>好きなこと・もの</h2>
+    {{ partial "recursive-list.html" .Site.Data.i.profile.likes }}
+    {{ partial "footer.html" }}
+{{ end }}

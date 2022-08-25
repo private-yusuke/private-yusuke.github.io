@@ -1,0 +1,9 @@
+<dt>
+    {{ .name }}
+    {{ range .links }}
+        <a href="{{ .href }}">{{ .label }}</a>
+    {{ end }}
+</dt>
+<dd>
+    {{ .description }}
+</dd>

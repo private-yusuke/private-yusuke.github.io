@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h1>作ったものたち</h1>
+    <dl>
+        {{ range .Site.Data.i.works }}
+            {{ partial "work.html" . }}
+        {{ end }}
+    </dl>
+
+    <p><a href="/">もどる</a></p>
+{{ end }}

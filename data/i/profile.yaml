@@ -1,0 +1,21 @@
+name: public_yusuke
+bio: D 言語とコンピュータが好きです。
+likes:
+  - name: 競技プログラミング
+  - name: ゲーム
+    children:
+      - name: 弐寺
+        children:
+          - name: SP 8 段
+          - name: DP 7 級
+      - name: jubeat
+      - name: Minecraft
+      - name: L4D2
+        children:
+          - name: Lewd4Dead
+      - name: 麻雀
+  - name: アニメ
+    children:
+      - name: ステラのまほう
+      - name: まちカドまぞく
+  - name: コンピュータ

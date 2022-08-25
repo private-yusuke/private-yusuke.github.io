@@ -1,0 +1,22 @@
+<table>
+    <tr>
+        <th>サービス名</th>
+        <th>URLまたはID</th>
+    </tr>
+    {{ range . }}
+        <tr>
+            <td>{{ .name }}</td>
+            {{ if isset . "href" }}
+                <td><a href="{{ .href }}">{{ .label }}</a></td>
+            {{ else }}
+                <td>
+                {{ if isset . "aa" }}
+                    <pre class="aa">{{ .label }}</pre>
+                {{ else }}
+                    {{ .label }}
+                {{ end }}
+                </td>
+            {{ end }}
+        </tr>
+    {{ end }}
+</table>

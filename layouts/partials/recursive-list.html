@@ -1,0 +1,10 @@
+<ul>
+    {{ range . }}
+        <li>
+            {{ .name }}
+            {{ if isset . "children" }}
+                {{ partial "recursive-list.html" .children }}
+            {{ end }}
+        </li>
+    {{ end }}
+</ul>

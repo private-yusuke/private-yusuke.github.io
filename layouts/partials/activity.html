@@ -1,0 +1,11 @@
+<li>
+    {{ .name }}
+    {{ range .links }}
+        <a href="{{ .href }}">{{ .label }}</a>
+    {{ end }}
+    {{ with .description }}
+        <ul>
+            <li>{{ . }}</li>
+        </ul>
+    {{ end }}
+</li>

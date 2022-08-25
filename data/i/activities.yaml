@@ -1,0 +1,11 @@
+- name: セキュリティ・キャンプ全国大会2022 オンライン 参加
+  links:
+    - href: https://www.ipa.go.jp/jinzai/camp/2022/zenkoku2022_index.html
+      label: 公式サイト
+  description: X4 無線通信ハッキングゼミ
+- name: PCK2019プログラミング部門本選出場（AはDPのA）
+  links:
+    - href: https://web-ext.u-aizu.ac.jp/pc-concours/
+      label: 公式サイト
+  description: 'チームメイト: @season1618, 自分'
+- name: JOI2018予選 331点 Bランク（敢闘賞）
