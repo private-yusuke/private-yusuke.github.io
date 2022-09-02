@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ .Site.Title }}</title>
+    <title>
+        {{ if and (.Page.Title) (not .IsHome) }}
+            {{ .Page.Title }} | {{ .Site.Title }}
+        {{ else }}
+            {{ .Site.Title }}
+        {{ end }}
+    </title>
     <link rel="stylesheet" href="/style.css" />
     {{ partial "googleanalytics.html" }}
 </head>
