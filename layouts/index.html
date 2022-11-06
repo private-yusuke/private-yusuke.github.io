@@ -4,6 +4,7 @@
         <img src="imgs/icon.png" alt="{{ .Site.Data.i.profile.name }}'s icon" id="icon" />
     </div>
     <p>{{ .Site.Data.i.profile.bio }}</p>
+
     <h2>アカウントなど</h2>
     {{ partial "services.html" .Site.Data.i.servicesavailable }}
 
@@ -35,9 +36,12 @@
             {{ partial "certification.html" . }}
         {{ end }}
     </ul>
+
     <h2>好きなこと・もの</h2>
     {{ partial "recursive-list.html" .Site.Data.i.profile.likes }}
+
     <h2>相互リンク集</h2>
     {{ partial "reciprocal-links.html" .Site.Data.i.links }}
+
     {{ partial "footer.html" }}
 {{ end }}
