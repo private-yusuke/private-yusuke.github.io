@@ -1,3 +1,11 @@
+- name: Interscheckin
+  description: 交差点でのチェックインを補助するために作成された Swarm 利用者のための Android アプリケーション
+  links:
+    - href: https://github.com/private-yusuke/interscheckin
+      label: GitHub リポジトリ
+    - href: https://private-yusuke.hatenadiary.jp/entry/2022/12/25/014500
+      label: ブログ記事
+
 - name: 内部状態が可視化された SMT ソルバーの制作
   description: EUF の congruence closure algorithm の様子を DOT 言語で吐き出せるようにした SMT ソルバー
   links:
