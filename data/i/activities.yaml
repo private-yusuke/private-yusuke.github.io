@@ -1,3 +1,9 @@
+- name: ICTトラブルシューティングコンテスト2022 優勝（word-unknown-tsukuba-otaku）
+  links:
+    - href: https://icttoracon.net/
+      label: 公式サイト
+    - href: https://private-yusuke.hatenadiary.jp/entry/2023/03/06/121500
+      label: ブログ記事
 - name: セキュリティ・キャンプ全国大会2022 オンライン 参加
   links:
     - href: https://www.ipa.go.jp/jinzai/camp/2022/zenkoku2022_index.html
