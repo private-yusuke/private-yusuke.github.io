@@ -1,7 +1,12 @@
 {{ define "main" }}
     <div id="name_icon">
         <h1 id="name">{{ .Site.Data.i.profile.name }}</h1>
-        <img src="imgs/icon.png" alt="{{ .Site.Data.i.profile.name }}'s icon" id="icon" />
+        <a href="imgs/icon.png">
+            <picture>
+                <source srcset="imgs/icon-thumbnail.webp" type="image/webp">
+                <img src="imgs/icon-thumbnail.jpg" alt="{{ .Site.Data.i.profile.name }}'s icon" id="icon" />
+            </picture>
+        </a>
     </div>
     <p>{{ .Site.Data.i.profile.bio }}</p>
 
