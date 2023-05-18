@@ -1,3 +1,9 @@
+- name: RubyKaigi 2023 NOC
+  links:
+    - href: https://rubykaigi.org/2023/about/
+      label: 公式サイト
+    - href: https://private-yusuke.hatenadiary.jp/entry/2023/05/18/003500
+      label: ブログ記事
 - name: ICTトラブルシューティングコンテスト2022 優勝（word-unknown-tsukuba-otaku）
   links:
     - href: https://icttoracon.net/
