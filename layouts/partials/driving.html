@@ -1,0 +1,9 @@
+<h3>走破した道路</h3>
+<p>とりあえず国道のみを列挙しました</p>
+<ul>
+    {{ range .completed_roads }}
+        <li>
+            {{ .name }} at {{ .date }}
+        </li>
+    {{ end }}
+</ul>
