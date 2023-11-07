@@ -1,5 +1,5 @@
 name: public_yusuke
-bio: D 言語とコンピュータが好きです。
+bio: 移動とコンピュータが好きです。
 likes:
   - name: 長距離ドライブ
   - name: ゲーム
@@ -8,7 +8,6 @@ likes:
         children:
           - name: SP 8 段
           - name: DP 7 級
-      - name: jubeat
       - name: Minecraft
       - name: L4D2
         children:
