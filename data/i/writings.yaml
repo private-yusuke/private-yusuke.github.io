@@ -1,4 +1,9 @@
 - article:
+    name: RustとeBPFでパケットをフィルタしてみよう
+  book:
+    name: Ariake Tea Party
+    href: https://www.otyakai.xyz/c103/
+- article:
     name: 興味深い道と場所
   book:
     name: WORD 52 号
