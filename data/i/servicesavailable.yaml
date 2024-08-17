@@ -6,6 +6,7 @@
   label: '@private-yusuke'
 - name: Keyoxide
   href: https://keyoxide.org/public@yusuke.pub
+  label: public@yusuke.pub
 - name: AtCoder
   href: https://atcoder.jp/users/private_yusuke
   label: private_yusuke
