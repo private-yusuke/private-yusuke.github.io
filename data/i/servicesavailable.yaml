@@ -4,6 +4,8 @@
 - name: GitHub
   href: https://github.com/private-yusuke
   label: '@private-yusuke'
+- name: Keyoxide
+  href: https://keyoxide.org/public@yusuke.pub
 - name: AtCoder
   href: https://atcoder.jp/users/private_yusuke
   label: private_yusuke
