@@ -1,10 +1,14 @@
-- name: ICTトラブルシューティングコンテスト2024 学生運営委員
+- name: ICTトラブルシューティングコンテスト2025 運営委員
   links:
-    - href: https://icttoracon.net/
+    - href: https://icttoracon.net/archives/category/ictsc2025
+      label: 公式サイト
+- name: ICTトラブルシューティングコンテスト2024 運営委員
+  links:
+    - href: https://icttoracon.net/archives/category/ictsc2024
       label: 公式サイト
 - name: ICTトラブルシューティングコンテスト2023 優勝（C）
   links:
-    - href: https://icttoracon.net/
+    - href: https://icttoracon.net/archives/category/ictsc2023
       label: 公式サイト
 - name: RubyKaigi 2023 NOC
   links:
@@ -14,7 +18,7 @@
       label: ブログ記事
 - name: ICTトラブルシューティングコンテスト2022 優勝（word-unknown-tsukuba-otaku）
   links:
-    - href: https://icttoracon.net/
+    - href: https://icttoracon.net/archives/category/ictsc2022
       label: 公式サイト
     - href: https://private-yusuke.hatenadiary.jp/entry/2023/03/06/121500
       label: ブログ記事
